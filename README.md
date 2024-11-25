@@ -17,3 +17,13 @@
   <li>models.py: Core implementation of models (Uniform, Frequency-based, RNN).</li>
   <li>utils.py: Helper utilities for indexing, processing, and managing datasets.</li>
 </ul>
+
+<h1>
+  Classifier Model
+</h1>
+<p>The classifier model distinguishes between text categories, specifically datasets related to consonants and vowels. It uses features derived from text patterns and applies either a Frequency-based or RNN-based approach to classify input examples. The model evaluates accuracy by comparing predicted labels with actual categories, making it effective for tasks requiring text categorization or pattern detection</p>
+
+<h1>
+  Language Model
+</h1>
+<p>The language model in this repository learns to predict the probability of a sequence of characters, making it suitable for tasks like text generation and analysis. It calculates key metrics such as log-probability, average log-probability, and perplexity, which measure how well the model understands the structure of the input text. Implementations include a Uniform baseline model and an RNN-based model for more complex, context-aware predictions.</p>
